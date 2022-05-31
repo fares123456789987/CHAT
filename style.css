@@ -1,0 +1,173 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+body{
+        background-color: rgba(150, 148, 245, 0.452);       
+}
+
+#one{
+        width: 330px;
+        height: 500px;
+        background-color:rgba(0, 255, 136, 0.541);
+        margin-left: 10px;
+        overflow-y: scroll;
+        
+        
+}
+
+#in1{
+        width: 298px;
+        height: 20px;
+        margin-left: 9px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        border-color: blue;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.555);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        transition: 1s;
+}
+.btn{
+        width: 50px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: blueviolet;
+        border-color: transparent;
+        margin: 3px 5px;
+        cursor: pointer;;
+        color: white;
+        transition: 1s;
+
+}
+#b2{
+        margin-left: 200px;
+}
+.btn:hover{
+        width: 55px;
+        letter-spacing: 1mm;
+        background-color: green;
+        transform: rotate(10deg);
+}
+
+.nn:focus{
+        width:310px ;
+        background-color: rgba(0, 128, 0, 0.836);
+        animation-name: f1;
+        animation-duration: 0.5s;
+}
+
+
+
+ @keyframes f1 {
+        0%{
+                transform: translateX(0px);
+
+        }
+         25%{
+                transform: translateX(10px);
+         }
+         50%{
+                transform: translateX(-10px);
+
+        }
+        75%{
+                transform: translateX(10px);
+
+        }
+        100%{
+                transform: translateX(0px);
+
+        }
+   
+ }
+
+ #two{
+        width: 330px;
+        height: 500px;
+        background-color:rgba(0, 0, 255, 0.178);
+        margin-left: 10px;
+        overflow-y: scroll;
+
+ } 
+
+.btn2{
+        width: 50px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(226, 43, 171);
+        border-color: transparent;
+        margin: 3px 5px;
+        cursor: pointer;;
+        color: white;
+        transition: 1s;
+
+}
+#b2_two{
+        margin-left: 200px;
+}
+.btn2:hover{
+        width: 55px;
+        letter-spacing: 1mm;
+        background-color: green;
+        transform: rotate(10deg);
+}
+#in2{
+        width: 298px;
+        height: 20px;
+        margin-left: 9px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        border-color: blue;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.555);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        transition: 1s;
+}
+#x22{
+        display: none;
+}
+#x{
+        display: none;
+}
+#x0{
+        text-align: center;
+        margin-top: 100px;
+}
+.nx{
+        width: 298px;
+        height: 20px;
+        margin-left: 9px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        border-color: blue;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.555);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
